@@ -1,3 +1,13 @@
-h1{ text-align:center;
+TEXTOS
+
+h1{ 
+    text-align:center;
+}
+
+IMAGENES
+
+.imagenprincipal{ 
+    display:block;
+    margin:auto;
 }
     
