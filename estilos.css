@@ -7,6 +7,12 @@ h1{
     text-align:center;
     text-size:100px;
 }
+#capadefinitiva{
+    with:600px;
+    padding:20px;
+    margin:0 auto;
+    overflow:auto;
+}
 #primeracapa{
     width:100%;
 }
