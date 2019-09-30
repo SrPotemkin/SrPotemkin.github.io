@@ -1,5 +1,8 @@
 /*TEXTOS*/
 
+ol{
+    text-size:50px;
+}
 h1{ 
     text-align:center;
     text-size:100px;
