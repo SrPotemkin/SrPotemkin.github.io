@@ -8,9 +8,13 @@ h1{
     width:100%;
     float:center;
 }
-#segundacapa{
+#segundacapa{ 
+    width:50%;
+    float:left;
 }
 #terceracapa{
+    width:50%;
+    float:right;
 }
 
 /*IMAGENES*/
