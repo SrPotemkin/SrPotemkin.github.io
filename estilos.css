@@ -1,17 +1,18 @@
 /*TEXTOS*/
 
-
+ol{
+    text-size:140px;
+}
 h1{ 
     text-align:center;
-    text-size:100px;
+    text-size:210px;
 }
 #primeracapa{
-    width:210%;
+    width:100%;
 }
 #segundacapa{ 
     width:40%;
     float:left;
-    text-size:140px
 }
 #terceracapa{
     width:40%;
