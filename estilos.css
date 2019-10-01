@@ -3,11 +3,15 @@
 
 h1{ 
     text-align:center;
-    text-size:100px;
+    font-size:75px;
+}
+
+h2{
+    font-size:60px;
 }
 
 ol{
-    font-size:100px;
+    font-size:50px;
 }
 
 /*CAPAS*/
