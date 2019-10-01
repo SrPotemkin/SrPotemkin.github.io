@@ -24,6 +24,7 @@ h1{
 #izquierda{ 
     width:40%;
     float:left;
+    text-size:100px;
 }
 
 #derecha{
@@ -33,9 +34,4 @@ h1{
 
 
 /*IMAGENES*/
-
-
-.imagenprincipal{ 
- 
-}
     
