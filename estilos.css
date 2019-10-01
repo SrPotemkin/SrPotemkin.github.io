@@ -7,20 +7,20 @@ h1{
     text-align:center;
     text-size:100px;
 }
-#capadefinitiva{
+#contenedor{
     with:600px;
     padding:20px;
     margin:0 auto;
     overflow:auto;
 }
-#primeracapa{
+#arriba{
     width:100%;
 }
-#segundacapa{ 
+#izquierda{ 
     width:40%;
     float:left;
 }
-#terceracapa{
+#derecha{
     width:40%;
     float:right;
 }
