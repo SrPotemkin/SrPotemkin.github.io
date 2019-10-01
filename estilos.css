@@ -1,31 +1,44 @@
 /*TEXTOS*/
 
+
 ol{
     text-size:140px;
 }
+
 h1{ 
     text-align:center;
     text-size:100px;
 }
+
+p{
+    text-align:center;
+    text-size:100px;
+}
+
 #contenedor{
     with:600px;
     padding:20px;
     margin:0 auto;
     overflow:auto;
 }
+
 #arriba{
     width:100%;
 }
+
 #izquierda{ 
     width:40%;
     float:left;
 }
+
 #derecha{
     width:40%;
     float:right;
 }
 
+
 /*IMAGENES*/
+
 
 .imagenprincipal{ 
  
