@@ -15,13 +15,11 @@ ol{
 }
 
 /*CAPAS*/
-
-
-#contenedor{
-    with:600px;
-    padding:20px;
-    margin:0 auto;
-    overflow:auto;
+div{
+    border: 1px solid gray;
+}
+* {
+    box-sizing: border-box;
 }
 
 #arriba{
@@ -29,14 +27,46 @@ ol{
 }
 
 #izquierda{ 
-    width:40%;
+    width:20%;
+    float:left;    
+}
+
+#centro{
+    width:60%;
     float:left;
-    text-size:100px;
+    padding:0 20px;
+    overflow:hidden;
 }
 
 #derecha{
-    width:40%;
-    float:right;
+    float:left;
+    width:20%;
+    padding:10px 15px;
+    margin-top:7px;
+}
+
+#abajo{
+}
+
+.menuitem{
+    padding:8px;
+    margin-top:7px;
+    border-bottom:1px solid;
+}
+
+@media only screen and (max-width:800px)
+    /*for tablets*/
+    #centro {
+        width:80%;
+        padding:0;
+}
+    #derecha {
+        width:100%;
+}
+@media only screen and (max-width:500px)
+    
+    #izquierda, #centro, #derecha {
+        width:100%;
 }
 
 
