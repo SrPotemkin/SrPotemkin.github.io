@@ -37,6 +37,10 @@ a:hover{
   font-weight: 800;
 }
 
+a:visited{
+  color:#ff0048;
+}
+
 #arriba{
   background-color:#f1f1f1;padding:15px;
   border-radius: 10px 10px 10px 10px;
