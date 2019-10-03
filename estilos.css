@@ -1,76 +1,100 @@
-/*TEXTOS*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+* {
+  box-sizing: border-box;
+}
 
-h1{ 
-    text-align:center;
-    font-size:70px;
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0efef;
+}
+
+h1{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2em;
 }
 
 h2{
-    font-size:40px;
+  border-bottom: 1px dashed gray;
+  font-weight: 400;
+  font-size: 1.5em;
+  font-style: normal;
 }
 
+p{
 
-/*CAPAS*/
-div{
-    border: 1px solid gray;
+  font-size: 14px;
+  line-height: 24px;
 }
-* {
-    box-sizing: border-box;
+
+a{
+  text-decoration:none;
+  color:grey;
+}
+
+a:hover{
+  font-weight: 800;
 }
 
 #arriba{
-    width:100%;
+  background-color:#f1f1f1;padding:15px;
+  border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(199,199,199,1) 52%, rgba(184,182,182,1) 100%);
 }
 
-#izquierda{ 
-    width:20%;
-    float:left;    
+img{
+  max-width:100%
 }
 
-#centro{
-    width:60%;
-    float:left;
-    padding:0 20px;
-    overflow:hidden;
+#menu {
+  float: left;
+  width: 20%;
+  
 }
-
-#derecha{
-    float:left;
-    width:20%;
-    padding:10px 15px;
-    margin-top:7px;
+.menuitem {
+  padding: 8px;
+  margin-top: 7px;
+  border-bottom: 1px solid #868383;
+}
+#centro {
+  float: left;
+  width: 60%;
+  padding: 20px;
+  overflow: hidden;
+}
+#derecha {
+  background-color: lightblue;
+  float: left;
+  width: 20%;
+  padding: 10px 15px;
+  margin-top: 7px;
 }
 
 #abajo{
+  background-color:#f1f1f1;
+  text-align:center;
+  padding:10px;
+  margin-top:7px;
+  font-size:12px
 }
 
-.menuitem{
-    padding:8px;
-    margin-top:7px;
-    border-bottom:1px solid;
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  #centro {
+    width: 80%;
+    padding: 0;
+  }
+  #derecha {
+    width: 100%;
+  }
 }
-
-@media only screen and (max-width:800px)
-    /*for tablets*/
-    #centro {
-        width:80%;
-        padding:0;
-}
-    #derecha {
-        width:100%;
-}
-@media only screen and (max-width:500px)
-    
-    #izquierda, #centro, #derecha {
-        width:100%;
-}
-
-
-/*IMAGENES*/
-    
-
-img{
-    height:auto;
-    width:25%;
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #izquierda, #centro, #derecha {
+    width: 100%;
+  }
 }
