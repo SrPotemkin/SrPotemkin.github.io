@@ -13,6 +13,7 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size: 2em;
+  color: blueviolet;
 }
 
 h2{
@@ -80,6 +81,8 @@ img{
 
 #abajo{
   background-color:#f1f1f1;
+  width: 100%;
+  float: left;
   text-align:center;
   padding:10px;
   margin-top:7px;
